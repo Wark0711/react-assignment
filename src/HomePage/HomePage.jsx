@@ -38,6 +38,7 @@ class HomePage extends React.Component {
                 }
                 <p>
                     <Link to="/login">Logout</Link>
+                    <Link to="/cards">Add Card</Link>
                 </p>
             </div>
         );
