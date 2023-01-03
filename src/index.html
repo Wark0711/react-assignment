@@ -393,13 +393,22 @@
         .App-cards-list {
             display: flex;
             margin-top: 30px;
-            flex-wrap: wrap;
+            /* flex-wrap: wrap; */
             justify-content: space-between;
         }
 
         .App-cards-list>* {
             transform: scale(0.8);
-            margin-bottom: 30px !important;
+            /* margin-bottom: 30px !important; */
+        }
+
+        .App-cards-list .rccs .rccs__card{
+            margin: 0 -8em;
+            transition: 800ms;
+        }
+
+        .App-cards-list .rccs .rccs__card:hover{
+            transform: translateY(-10em);
         }
 
         .App-highlight {

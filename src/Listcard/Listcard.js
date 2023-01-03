@@ -8,6 +8,7 @@ export default class ListCards extends React.Component {
         <h3>Supported Cards</h3>
         <div className="App-cards-list">
           <Card
+            className='card-lists'
             name="John Smith"
             number="5555 4444 3333 1111"
             expiry="10/20"
@@ -15,6 +16,7 @@ export default class ListCards extends React.Component {
           />
 
           <Card
+            className='card-lists'
             name="John Smith"
             number="4111 1111 1111 1111"
             expiry="10/20"
@@ -22,6 +24,7 @@ export default class ListCards extends React.Component {
           />
 
           <Card
+            className='card-lists'
             name="John Smith"
             number="3700 0000 0000 002"
             expiry="10/20"
@@ -29,12 +32,14 @@ export default class ListCards extends React.Component {
           />
 
           <Card
+            className='card-lists'
             name="John Smith"
             number="3600 666633 3344"
             expiry="10/20"
             cvc="737"
           />
           <Card
+            className='card-lists'
             name="John Smith"
             number="6011 6011 6011 6611"
             expiry="10/20"
@@ -42,6 +47,7 @@ export default class ListCards extends React.Component {
           />
 
           <Card
+            className='card-lists'
             name="John Smith"
             number="5066 9911 1111 1118"
             expiry="10/20"
@@ -49,6 +55,7 @@ export default class ListCards extends React.Component {
           />
 
           <Card
+            className='card-lists'
             name="John Smith"
             number="6250 9460 0000 0016"
             expiry="10/20"
@@ -56,6 +63,7 @@ export default class ListCards extends React.Component {
           />
 
           <Card
+            className='card-lists'
             name="John Smith"
             number="6062 8288 8866 6688"
             expiry="10/20"
@@ -63,6 +71,7 @@ export default class ListCards extends React.Component {
           />
 
           <Card
+            className='card-lists'
             name="John Smith"
             number="**** **** **** 7048"
             expiry="10/20"
